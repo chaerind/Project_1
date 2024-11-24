@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.93 28.84">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Charmonman-Bold, Charmonman;
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-2 {
+        letter-spacing: .08em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-3, .cls-4 {
+        font-family: Pistilli, Pistilli;
+      }
+
+      .cls-4 {
+        letter-spacing: .05em;
+      }
+
+      .cls-5 {
+        fill: none;
+        stroke: #ec292f;
+        stroke-miterlimit: 10;
+        stroke-width: .75px;
+      }
+
+      .cls-6 {
+        fill: #ec292f;
+        font-size: 13.08px;
+      }
+
+      .cls-2 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-5" cx="25.97" cy="12.14" rx="25.59" ry="11.76"/>
+  <text class="cls-6" transform="translate(9.52 16.59)"><tspan class="cls-3" x="0" y="0">W</tspan><tspan class="cls-4" x="12.96" y="0">i</tspan><tspan class="cls-1" x="18.72" y="0">n</tspan><tspan class="cls-2" x="26.37" y="0">E</tspan></text>
+</svg>

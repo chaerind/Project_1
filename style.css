@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('fonts/Pretendard-Bold.woff2') format('woff2');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('fonts/Pretendard-Light.woff2') format('woff2');
+    font-weight: 300;
+}
+body {
+    font-family: 'Pretendard', sans-serif;
+    background: #140a0a;
+    aspect-ratio: 1/2;
+    transition: 1s;
+}
+
+            header {
+                display: flex;
+                flex-direction: row;
+                align-items: center; /* 수직 가운데 정렬 */
+                justify-content: center; /* 수평 가운데 정렬 */
+                margin-bottom: 10px;
+            }
+
+            header img.logo {
+                width: 100px; /* 로고 크기 조정 */
+                height: auto;
+            }
+
+            header nav.header-nav ul {
+                display: flex; /* 항목들을 수평으로 정렬 */
+                align-items: center; /* 세로 중앙 정렬 */
+                padding: 0; /* 기본 padding 제거 */
+                margin: 0; /* 기본 margin 제거 */
+                width: 100%; /* 전체 너비를 100%로 설정*/
+            }
+
+            /* 모든 SVG 이미지를 반응형으로 만들고 가운데 정렬 */
+            .background-image-absolute img {
+                width: 100%;  /* SVG가 컨테이너 너비를 채움 */
+                height: auto; /* 비율 유지 */
+                max-width: 100%; 
+                display: block; /* 인라인 display 제거 */
+                margin-left: auto; /* 수평 가운데 정렬 */
+                margin-right: auto; /* 수평 가운데 정렬 */
+                margin: 320px; 
+
+            }
+
+            .background-image img {
+                width: 100%;  /* SVG가 컨테이너 너비를 채움 */
+                height: auto; /* 비율 유지 */
+                max-width: 100%; /* 50%로 비율 제한 */
+                display: block; /* 인라인 display 제거 */
+                margin-left: auto; /* 수평 가운데 정렬 */
+                margin-right: auto; /* 수평 가운데 정렬 */
+            }
+
+            /* 선택적 스타일: 위치 지정 */
+            .background-image-absolute {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                z-index: -2; /* typo2.svg를 가장 뒤로 */
+            }
+
+            .wave-image {
+                position: relative;
+                z-index: -1;  /* wave-image는 typo2.svg 위에 위치 */
+            }
+
+            .backgound-image {
+                position: relative;
+                z-index: -3;  /* 배경 이미지가 가장 뒤에 */
+            }
+
+            /* 메인 콘텐츠 */
+            .content {
+                position: relative;
+            }
+
+
+/* 네비게이션 메뉴 텍스트 컬러 */
+header nav.header-nav ul li {
+    color: #ec292f; /* 텍스트 컬러를 어두운 회색으로 설정 */
+    font-size: 18px; /* 폰트 크기 조정 */
+}
+
+
+.text {
+    font-size: 68px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    padding: 5em 2em;
+    transition: 0.5s;
+}
+.background-image-absolute {
+    position: absolute;
+    top: 80%;
+    z-index: -1;
+    padding: 40px;
+}
+
+.background-image img {
+    width: 100%;  /* SVG가 컨테이너 너비를 채움 */
+    height: auto; /* 비율 유지 */
+    max-width: 50%; /* 50%로 비율 제한 */
+    display: block; /* 인라인 display 제거 */
+    margin-left: auto; /* 수평 가운데 정렬 */
+    margin-right: auto; /* 수평 가운데 정렬 */
+}
+
+.background-image-absolute img {
+    width: 100%;
+}
+
+
+.wave-image img {
+    width: 100%;
+}
+.wave-image:hover img {
+    animation-name: wave-animation;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.backgound-image {
+    position: fixed;
+    top: 100px;
+    z-index: -1;
+    padding: 0 40px 0 40px;
+}
+.backgound-image img {
+    width: 100%;
+}
